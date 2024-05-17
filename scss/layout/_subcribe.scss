@@ -1,0 +1,65 @@
+.subcribe{
+    padding-bottom: 85px;
+    &-title{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        color: $black-color;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    &-text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        color: $main-grey-color;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    &-form{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20.6px;
+        width: 489px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        border: 1px solid $sud-input-b-color;
+        border-radius: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 33px;
+    }
+    &-input{
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    &-btn{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        color: $main-white-color;
+        background-color: $main-blue-color;
+        display: block;
+        margin-left: auto;
+        width: 190px;
+        height: 45px;
+        border-radius: 0 30px 30px 0;
+    }
+    
+    &-b-text{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20.6px;
+        color: $main-grey-color;
+        text-align: center;
+        margin-top: 35px;
+    }
+}
+.subcribe .container{
+    border-top: 1px solid $light-grey-color;
+    padding-top: 85px;
+}

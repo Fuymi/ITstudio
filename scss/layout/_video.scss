@@ -1,0 +1,52 @@
+.video{
+    padding-top: 70px;
+    padding-bottom: 85px;
+    background-image: url("/img/video-bg-img.png");
+    background-repeat: no-repeat;
+    &-title{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 53px;
+        color: $main-white-color;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    &-text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        color: $main-white-color;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    &-div{
+        background-image: url("../../img/video-bg-btn-img.png");
+        width: 970px;
+        height: 430px;
+        border-radius: 10px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    &-svg{}
+    &-btn{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
+        width: 300px;
+        height: 100px;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 21px;
+        color: $main-white-color;
+        border: 1px solid $main-white-color;
+        border-radius: 200px;
+    }
+}
+.video .container{
+    // border-bottom: 1px solid $light-grey-color;
+}

@@ -1,0 +1,43 @@
+.all-projects{
+    padding-top: 100px;
+    padding-bottom: 130px;
+    background-color: $bg-color;
+    &-title{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 53px;
+        color: $black-color;
+        text-align: center;
+        margin-bottom: 28px;
+    }
+    &-text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        color: $main-grey-color;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 730px;
+        margin-bottom: 92px;
+    }
+    &-list{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-bottom: 50px;
+
+        &-item{}
+        &-img{}
+    }
+    &-btn{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        color: $main-white-color;
+        background-color: $main-blue-color;
+        padding: 15px 36px;
+        border-radius: 30px;
+        display: block;
+        margin: auto;
+    }
+}
