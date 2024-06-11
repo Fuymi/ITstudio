@@ -51,6 +51,114 @@ body {
   width: 100%;
 }
 
+.mob-menu {
+  height: 100vh;
+  width: 100vw;
+  padding: 48px 40px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.mob-menu-container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.mob-menu-svg {
+  fill: currentColor;
+}
+
+.menu-close-btn {
+  position: fixed;
+  color: rgb(33, 33, 33);
+  background: transparent;
+  top: 10px;
+  right: 10px;
+}
+
+.nav-menu-list-item {
+  margin-bottom: 32px;
+}
+.nav-menu-list-link {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgb(33, 33, 33);
+}
+.nav-menu-list-link:hover {
+  color: rgb(33, 150, 243);
+}
+
+.contacts-menu-list {
+  margin-bottom: 64px;
+}
+.contacts-menu-list-item {
+  margin-bottom: 32px;
+}
+.contacts-menu-list-item:first-child {
+  font-family: Roboto;
+  font-size: 34px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgb(33, 150, 243);
+}
+.contacts-menu-list-item:last-child {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgb(117, 117, 117);
+  margin: 0;
+}
+
+.social-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+.social-menu-list-item:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
+}
+.social-menu-list-link {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgb(33, 150, 243);
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.mob-menu.is-hidden {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
 .about-us {
   padding-top: 100px;
   padding-bottom: 70px;

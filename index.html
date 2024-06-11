@@ -15,7 +15,7 @@
 <body>
     <header class="header">
         <div class="container">
-            <!-- <nav class="nav">
+            <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-list-item"><a href="" class="nav-list-link current">Головна</a></li>
                     <li class="nav-list-item"><a href="" class="nav-list-link">Наші проекти</a></li>
@@ -23,25 +23,43 @@
                     <li class="nav-list-item"><a href="" class="nav-list-link">Новини</a></li>
                     <li class="nav-list-item"><a href="" class="nav-list-link">Контакти</a></li>
                 </ul>
-            </nav> -->
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-list-item"><a href="" class="nav-list-link current">Головна</a></li>
-                    <li class="nav-list-item"><a href="" class="nav-list-link">Наші проекти</a></li>
-                    <li class="nav-list-item"><a href="" class="nav-list-link">Послуги</a></li>
-                    <li class="nav-list-item"><a href="" class="nav-list-link">Новини</a></li>
-                </ul>
-                <ul class="contacts-list">
-                    <li class="contacts-list-item"><a href="" class="contacts-list-link">+38 097 555 67 89</a></li>
-                    <li class="contacts-list-item"><a href="" class="contacts-list-link">itstudio@info.com</a></li>
-                </ul>
-                <button class="nav-btn menu-open-btn">
-                    <svg class="nav-btn-svg" width="24" height="16">
-                        <use href="./symbol-defs.svg#icon-menu"></use>
-                    </svg>
-                </button>
             </nav>
+            <button class="nav-btn menu-open-btn">
+                <svg class="nav-btn-svg" width="24" height="16">
+                    <use href="./symbol-defs.svg#icon-menu"></use>
+                </svg>
+            </button>                
         </div>
+        
+        <div class="mob-menu is-hidden">
+                <div class="container mob-menu-container">
+                    <div class="mob-menu-top">
+                        <button type="button" class="menu-btn menu-close-btn">
+                            <svg class="mob-menu-svg" width="29" height="29">
+                                <use href="./symbol-defs.svg#icon-close"></use>
+                            </svg>
+                        </button>
+                        <nav class="nav-menu">
+                            <ul class="nav-menu-list">
+                                <li class="nav-menu-list-item"><a href="" class="nav-menu-list-link">Головна</a></li>
+                                <li class="nav-menu-list-item"><a href="" class="nav-menu-list-link">Наші проекти</a></li>
+                                <li class="nav-menu-list-item"><a href="" class="nav-menu-list-link">Послуги</a></li>
+                                <li class="nav-menu-list-item"><a href="" class="nav-menu-list-link">Новини</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mob-menu-bottom">
+                        <ul class="contacts-menu-list">
+                            <li class="contacts-menu-list-item"><a href="" class="contacts-menu-list-link">+38 097 555 67 89</a></li>
+                            <li class="contacts-menu-list-item"><a href="" class="contacts-menu-list-link">itstudio@info.com</a></li>
+                        </ul>
+                        <ul class="social-menu-list">
+                            <li class="social-menu-list-item"><a href="" class="social-menu-list-link">Instagram</a></li>
+                            <li class="social-menu-list-item"><a href="" class="social-menu-list-link">Twitter</a></li>
+                            <li class="social-menu-list-item"><a href="" class="social-menu-list-link">Facebook</a></li>
+                            <li class="social-menu-list-item"><a href="" class="social-menu-list-link">LinkedIn</a></li>
+                        </ul>
+                    </div>
     </header>
     <main>
         
@@ -387,5 +405,7 @@
                             </div>
                         </section>
                     </main>
+                    <script src="./script.js"></script>
+                    <script src="./burger.js"></script>
                 </body>
                 </html>
