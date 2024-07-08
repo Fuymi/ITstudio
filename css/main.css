@@ -688,7 +688,7 @@ body {
 .video {
   padding-top: 70px;
   padding-bottom: 85px;
-  background-image: url("/img/video-bg-img.png");
+  background-image: url("../img/video-bg-img.png");
   background-repeat: no-repeat;
 }
 .video-title {
@@ -708,7 +708,7 @@ body {
   margin-bottom: 70px;
 }
 .video-div {
-  background-image: url("../../img/video-bg-btn-img.png");
+  background-image: url("../img/video-bg-btn-img.png");
   width: 970px;
   height: 430px;
   border-radius: 10px;
